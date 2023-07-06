@@ -14,6 +14,4 @@ public interface ProductFacade {
 
     Product updateProduct(String id, Product updatedProduct);
 
-    void deleteProduct(String id);
-
 }

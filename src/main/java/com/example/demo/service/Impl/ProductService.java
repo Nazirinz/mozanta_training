@@ -15,6 +15,4 @@ public interface ProductService {
     Product getProduct(String id);
 
     Product updateProduct(String id);
-
-    void deleteProduct(String id);
 }

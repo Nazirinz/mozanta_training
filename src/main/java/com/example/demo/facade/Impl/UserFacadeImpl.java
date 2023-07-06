@@ -28,9 +28,5 @@ public class UserFacadeImpl implements UserFacade{
     public User updateUser(String id, User updatedUser) {
         return userService.updatedUser(id);
     }
-    @Override
-    public void deleteUser(String id) {
-        userService.deleteUser(id);
-    }
     
 }

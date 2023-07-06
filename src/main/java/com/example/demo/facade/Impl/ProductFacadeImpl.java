@@ -32,9 +32,4 @@ public class ProductFacadeImpl implements ProductFacade {
     public Product updateProduct(String id, Product updatedProduct) {
        return productService.updateProduct(id);
 }
-
-    @Override
-    public void deleteProduct(String id) {
-      productService.deleteProduct(id);
-    }
 }
