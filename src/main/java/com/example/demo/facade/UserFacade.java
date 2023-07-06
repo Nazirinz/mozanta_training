@@ -14,5 +14,7 @@ public interface UserFacade {
 
     User updateUser(String id, User updatedUser);
 
+    void deleteUser(String id);
+
    
 }
