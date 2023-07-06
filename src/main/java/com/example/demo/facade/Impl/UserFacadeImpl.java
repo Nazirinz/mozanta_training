@@ -30,7 +30,7 @@ public class UserFacadeImpl implements UserFacade{
     }
     @Override
     public void deleteUser(String id) {
-    
+        userService.deleteUser(id);
     }
     
 }
