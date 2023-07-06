@@ -22,7 +22,6 @@ public class ProductController {
 
     @PostMapping("/save")
     public Product saveProduct(@RequestBody Product product) {
-        System.out.println("hello");
         return productFacade.saveProduct(product);
     }
 
